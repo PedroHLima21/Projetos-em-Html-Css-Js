@@ -1,5 +1,4 @@
 # Projetos-em-Html-Css-Js
 
 Alguns projetos que eu realizei, são projetos de cursos, pessoais e pedidos...
-
-# Para ver os projetos aperte em view raw ou baixe eles #
+Alguns são do curso Hora de codar do https://github.com/matheusbattisti
