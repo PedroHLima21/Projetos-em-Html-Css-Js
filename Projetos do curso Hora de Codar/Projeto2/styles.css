@@ -1,81 +1,126 @@
-/* Reset */
+/* reset */
+
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #000;
+    background-color: #f0ebf8;
 }
 
 h1, h2, h3, h4, h5{
     color: #333;
 }
 
-p{
-    color: #fff;
+p, label{
+    color: #444;
 }
 
-label{
-    color: #000;
+input{
+    border: 1px solid transparent;
+    border-bottom: 1px solid #CCC;
+    padding: 10px 0px;
 }
+
+input [type=text], input[type=number], input[type=date], input[type=file]{
+    width: 400px;
+}
+
+textarea{
+    padding: 10px 5px;
+    width: 400px;
+}
+
 /* Cabecalho */
 
-.cabecalho{
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #673ab7;
 }
 
-.cabecalho h1{
-    margin: 0px;
-    color: #000;
-    font-size: 42px;
+.header h3{
+    color: #fff;
+    margin-top: 0;
+}
+
+/* Container do formulário */
+
+.form-container{
     background-color: #FFF;
-    height: 100px;
-    width: auto;
-    
-    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top: -62px;
 }
 
-.cabecalho p{
-    font-style: italic;
-    font-size: 15px;
+/* Cabecalho do formulario */
+
+.from-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.from-header p{
+    color:#673ab7;
+    border-bottom: 2px solid #673ab7;
+    width: 100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     text-transform: uppercase;
-    border-radius: #fff 900px;
+    height: 45px;
+    line-height: 45px;
 }
 
-.cabecalho img{
-    width: 110px;
-    height: 110px;
-    position: fixed;
-    top: -10px;
-    right: 0px;
+/* corpo do formulário */
+
+.form-body{
+    padding: 30px;
 }
 
-/* Parte para personalizar */
-
-.Opcao_Usuario{
-    text-align: center;
-    display: inline;
+.form-title{
+    margin: 0;
 }
 
-.Opcao_Usuario ul{
-    list-style-type: none;
-    font-size: 20px;
+.required-field{
+    color: #D80835;
 }
 
-.Lista-de-opcao{
-    padding: 0px;
-    margin-top: 10px;
-    height: 100px;
-    background-color: #fff;
+.box-input{
+    margin-bottom: 30px;
 }
 
-/* Noticias */
+.block{
+    display: block;
+}
 
-.Noticias{
-    margin: -20px;
-    padding: 0px;
-    height: 1000px;
-    width: 1539px;
-    background-color: #fff;
+.optional_box{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.optional_list{
+    padding-left: 0px;
+}
+
+.optional_list{
+    list-style: none;
+}
+
+.btn-submit{
+    background-color: #673ab7;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-submit:hover{
+    background-color: #FFF;
+    border-color:#673ab7;
+    color:#673ab7;
 }
